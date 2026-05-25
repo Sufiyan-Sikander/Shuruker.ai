@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { flaskBaseUrl } from '../authConfig';
 
 export default function RegisterFreelancerPage() {
   const [fileName, setFileName] = useState('');
@@ -77,10 +78,10 @@ export default function RegisterFreelancerPage() {
 
           <nav className="nav-links">
             <a href="/">Home</a>
-            <a href="/#features">Features</a>
-            <a href="/explore">Explore</a>
-            <a href="/freelancer-login">Freelancer Login</a>
-            <a className="signin" href="/login">Sign In</a>
+            <a href={`${flaskBaseUrl}/`}>Features</a>
+            <a href={`${flaskBaseUrl}/explore`}>Explore</a>
+            <a href={`${flaskBaseUrl}/freelancer-login`}>Freelancer Login</a>
+            <a className="signin" href={`${flaskBaseUrl}/login`}>Sign In</a>
           </nav>
         </div>
       </header>

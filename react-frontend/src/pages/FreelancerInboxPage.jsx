@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { loadScript } from '../loadScript';
+import { flaskBaseUrl } from '../authConfig';
 
 export default function FreelancerInboxPage() {
   useEffect(() => {
@@ -29,9 +30,9 @@ export default function FreelancerInboxPage() {
             </div>
           </a>
           <nav className="nav-links">
-            <a href="/freelancer-inbox">Freelancer Inbox</a>
-            <a href="/freelancers">Find Freelancer</a>
-            <a className="signup" href="/logout">Logout</a>
+            <a href={`${flaskBaseUrl}/freelancer-inbox`}>Freelancer Inbox</a>
+            <a href={`${flaskBaseUrl}/freelancers`}>Find Freelancer</a>
+            <a className="signup" href={`${flaskBaseUrl}/logout`}>Logout</a>
           </nav>
         </div>
       </header>

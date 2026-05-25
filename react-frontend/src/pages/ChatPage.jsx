@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { onAuthStateChanged } from 'firebase/auth';
 import { auth } from '../firebase';
 import { loadScript } from '../loadScript';
+import { flaskBaseUrl } from '../authConfig';
 
 export default function ChatPage() {
   useEffect(() => {
@@ -45,15 +46,15 @@ export default function ChatPage() {
           </a>
           <nav className="nav-links">
             <div className="nav-dropdown">
-              <a href="/freelancers" className="dropdown-toggle">Services</a>
+              <a href={`${flaskBaseUrl}/freelancers`} className="dropdown-toggle">Services</a>
               <div className="dropdown-menu">
-                <a href="/register-freelancer">Register as Freelancer</a>
-                <a href="/freelancer-login">Login as Freelancer</a>
-                <a href="/freelancers">Find Freelancer</a>
+                <a href={`${flaskBaseUrl}/register-freelancer`}>Register as Freelancer</a>
+                <a href={`${flaskBaseUrl}/freelancer-login`}>Login as Freelancer</a>
+                <a href={`${flaskBaseUrl}/freelancers`}>Find Freelancer</a>
               </div>
             </div>
-            <a id="messagesLink" href="/client-messages">Inbox</a>
-            <a className="signup" href="/logout">
+            <a id="messagesLink" href={`${flaskBaseUrl}/client-messages`}>Inbox</a>
+            <a className="signup" href={`${flaskBaseUrl}/logout`}>
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '6px' }}>
                 <path d="M19 12H5M12 19l-7-7 7-7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
