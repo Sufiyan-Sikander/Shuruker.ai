@@ -147,7 +147,7 @@ function App() {
     ['Local Retail', 'Improve positioning, footfall strategy, and customer retention for neighborhood stores.'],
   ];
 
-  const loginUrl = `${flaskBaseUrl}/login?next=/chat`;
+  const loginUrl = `/login?next=/chat`;
 
   if (pathname === '/login') {
     return <AuthPage mode="login" />;
@@ -201,7 +201,7 @@ function App() {
     <>
       <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-inner">
-          <a className="brand" href={`${flaskBaseUrl}/`} aria-label="ShurukerAi home">
+          <a className="brand" href="/" aria-label="ShurukerAi home">
             <div className="logo"><img src="/static/images/logo2.png" alt="ShurukerAi logo" /></div>
             <div className="brand-text">
               <span className="brand-name">ShurukerAi</span>
@@ -212,17 +212,17 @@ function App() {
           <nav className="nav-links">
             <a href="#features">Features</a>
             <a href="#solution">Solution</a>
-            <a href={`${flaskBaseUrl}/explore`}>Explore</a>
+            <a href="/explore">Explore</a>
             <div className="nav-dropdown">
               <a href="#services" className="dropdown-toggle">Services</a>
               <div className="dropdown-menu">
-                <a href={`${flaskBaseUrl}/register-freelancer`}>Register as Freelancer</a>
-                <a href={`${flaskBaseUrl}/freelancer-login`}>Login as Freelancer</a>
-                <a href={`${flaskBaseUrl}/freelancers`}>Find Freelancer</a>
+                <a href="/register-freelancer">Register as Freelancer</a>
+                <a href="/freelancer-login">Login as Freelancer</a>
+                <a href="/freelancers">Find Freelancer</a>
               </div>
             </div>
-            <a className="signin" href={`${flaskBaseUrl}/login`}>Sign In</a>
-            <a className="signup" href={`${flaskBaseUrl}/start`}>Sign Up</a>
+            <a className="signin" href="/login">Sign In</a>
+            <a className="signup" href="/start">Sign Up</a>
           </nav>
         </div>
       </header>
@@ -236,7 +236,7 @@ function App() {
 
               <div className="hero-cta">
                 <a className="btn primary" href={loginUrl}>Get Started Free</a>
-                <a className="btn ghost" href={`${flaskBaseUrl}/learn`} target="_blank" rel="noopener noreferrer">Learn More</a>
+                <a className="btn ghost" href="/learn" target="_blank" rel="noopener noreferrer">Learn More</a>
               </div>
 
               <ul className="features-list">
@@ -342,8 +342,8 @@ function App() {
               <p>Need expert execution support? Connect with specialists or join as a freelancer.</p>
             </div>
             <div className="services-actions">
-              <a className="btn ghost" href={`${flaskBaseUrl}/freelancers`}>Find Freelancer</a>
-              <a className="btn primary" href={`${flaskBaseUrl}/register-freelancer`}>Register as Freelancer</a>
+              <a className="btn ghost" href="/freelancers">Find Freelancer</a>
+              <a className="btn primary" href="/register-freelancer">Register as Freelancer</a>
             </div>
           </div>
         </section>
