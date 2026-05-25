@@ -1,0 +1,858 @@
+/* Flask template-specific styles for freelancer pages */
+
+/* freelancers.html */
+.freelancers-page {
+  min-height: 100vh;
+}
+
+.freelancers-hero {
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.freelancers-hero h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.freelancers-hero p {
+  font-size: 18px;
+  opacity: 0.95;
+  margin-bottom: 24px;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.category-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.category-card:hover {
+  border-color: #7b61ff;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(123, 97, 255, 0.15);
+}
+
+.category-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.category-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.category-count {
+  font-size: 13px;
+  color: #888;
+}
+
+.freelancers-content {
+  max-width: 1000px;
+  margin: -40px auto 40px;
+  padding: 0 20px;
+}
+
+.freelancers-list {
+  display: grid;
+  gap: 20px;
+}
+
+.freelancer-card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s;
+}
+
+.freelancer-card:hover {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.freelancer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 12px;
+}
+
+.freelancer-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.freelancer-category {
+  display: inline-block;
+  background: rgba(123, 97, 255, 0.1);
+  color: #7b61ff;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.freelancer-bio {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.freelancer-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+}
+
+.freelancer-links {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-small.primary {
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  color: white;
+}
+
+.btn-small.primary:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(123, 97, 255, 0.3);
+}
+
+.btn-small.secondary {
+  background: white;
+  border: 1px solid #ddd;
+  color: #1a1a1a;
+}
+
+.btn-small.secondary:hover {
+  background: #fafafa;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.empty-state-icon {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+.empty-state-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.empty-state-text {
+  color: #888;
+  margin-bottom: 24px;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+}
+
+.spinner {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(123, 97, 255, 0.3);
+  border-top-color: #7b61ff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading-text {
+  margin-top: 12px;
+  color: #666;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #ffa500;
+}
+
+/* register_freelancer.html */
+.freelancer-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.freelancer-form {
+  background: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07);
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+}
+
+.form-header p {
+  color: #666;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 24px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #1a1a1a;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #7b61ff;
+  box-shadow: 0 0 0 3px rgba(123, 97, 255, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 100px;
+  font-family: 'Inter', sans-serif;
+}
+
+.form-group small {
+  display: block;
+  color: #888;
+  margin-top: 6px;
+  font-size: 12px;
+}
+
+.file-upload {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.file-upload input[type="file"] {
+  display: none;
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.file-upload label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 24px;
+  border: 2px dashed #ddd;
+  border-radius: 8px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.file-upload label:hover {
+  border-color: #7b61ff;
+  background: rgba(123, 97, 255, 0.05);
+}
+
+.file-upload-content {
+  text-align: center;
+}
+
+.file-upload-icon {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.file-upload-text {
+  font-size: 14px;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.file-upload-hint {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+.file-name {
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 13px;
+  color: #1a1a1a;
+  display: none;
+}
+
+.file-name.active {
+  display: block;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  color: white;
+}
+
+.btn.primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(123, 97, 255, 0.3);
+}
+
+.btn.secondary {
+  background: white;
+  border: 1px solid #ddd;
+  color: #1a1a1a;
+}
+
+.btn.secondary:hover {
+  background: #fafafa;
+}
+
+.btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.success-message {
+  display: none;
+  padding: 16px;
+  background: #ecf9f0;
+  border: 1px solid #a8e6d9;
+  border-radius: 8px;
+  color: #1a5a3e;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.error-message {
+  display: none;
+  padding: 16px;
+  background: #fef2f2;
+  border: 1px solid #fdaba7;
+  border-radius: 8px;
+  color: #7a2424;
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+/* freelancers_category.html */
+.freelancers-category-page {
+  min-height: 100vh;
+}
+
+.category-hero {
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  color: white;
+  padding: 40px 20px;
+}
+
+.category-hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.category-hero h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.category-hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.category-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.results-info {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.freelancer-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+
+.freelancer-email {
+  font-size: 13px;
+  color: #888;
+}
+
+/* client_messages.html + freelancer_inbox.html */
+.dm-shell {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 0 16px;
+}
+
+.dm-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 14px;
+  min-height: 72vh;
+}
+
+.dm-panel {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(11, 15, 30, 0.05);
+}
+
+.panel-head {
+  padding: 14px 16px;
+  border-bottom: 1px solid #efefef;
+}
+
+.panel-head h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.threads {
+  max-height: calc(72vh - 58px);
+  overflow: auto;
+}
+
+.thread {
+  padding: 12px 14px;
+  border-bottom: 1px solid #f3f3f3;
+  cursor: pointer;
+}
+
+.thread:hover {
+  background: #faf9ff;
+}
+
+.thread.active {
+  background: rgba(123, 97, 255, 0.08);
+}
+
+.thread-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.thread-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.thread-time {
+  font-size: 12px;
+  color: #888;
+}
+
+.thread-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.thread-last {
+  font-size: 13px;
+  color: #666;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.unread {
+  font-size: 11px;
+  color: #fff;
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  padding: 2px 7px;
+  border-radius: 999px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  min-height: 72vh;
+}
+
+.chat-sub {
+  margin-top: 3px;
+  color: #666;
+  font-size: 13px;
+}
+
+.msgs {
+  flex: 1;
+  padding: 14px;
+  overflow: auto;
+  background: #fcfcff;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.row.me {
+  justify-content: flex-end;
+}
+
+.bubble {
+  max-width: 76%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.row.me .bubble {
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+
+.row.other .bubble {
+  background: #fff;
+  color: #111827;
+  border: 1px solid #ececec;
+  border-bottom-left-radius: 4px;
+}
+
+.msg-time {
+  font-size: 11px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.composer {
+  display: flex;
+  gap: 10px;
+  padding: 12px;
+  border-top: 1px solid #ececec;
+}
+
+.composer input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-family: inherit;
+}
+
+.composer button {
+  border: none;
+  border-radius: 10px;
+  padding: 0 16px;
+  color: #fff;
+  font-weight: 700;
+  background: linear-gradient(135deg, #7b61ff, #ff6a5b);
+  cursor: pointer;
+}
+
+.empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 280px;
+  color: #666;
+  text-align: center;
+  padding: 18px;
+}
+
+/* freelancer_login.html */
+body.freelancer-login-page,
+.freelancer-login-page {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.freelancer-login-page .login-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 430px;
+  padding: 40px 30px;
+}
+
+.freelancer-login-page .login-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.freelancer-login-page .login-header .logo {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  margin: 0 auto 16px;
+}
+
+.freelancer-login-page .login-header h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: #1a1a1a;
+}
+
+.freelancer-login-page .login-header p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.freelancer-login-page .oauth-button,
+.freelancer-login-page .auth-button {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.freelancer-login-page .oauth-button {
+  border: 1px solid #e0e0e0;
+  background: white;
+  margin-bottom: 16px;
+}
+
+.freelancer-login-page .oauth-button:hover {
+  background: #f8f8f8;
+}
+
+.freelancer-login-page .auth-button {
+  border: none;
+  color: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin-top: 8px;
+}
+
+.freelancer-login-page .auth-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
+}
+
+.freelancer-login-page .form-group {
+  margin-bottom: 14px;
+}
+
+.freelancer-login-page .form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.freelancer-login-page .form-group input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.freelancer-login-page .divider {
+  display: flex;
+  align-items: center;
+  margin: 18px 0;
+}
+
+.freelancer-login-page .divider-line {
+  flex: 1;
+  height: 1px;
+  background: #e0e0e0;
+}
+
+.freelancer-login-page .divider-text {
+  padding: 0 10px;
+  color: #999;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.freelancer-login-page .error-message {
+  display: none;
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #f8b4b4;
+  background: #fff5f5;
+  color: #c53030;
+  font-size: 13px;
+}
+
+.freelancer-login-page .error-message.show {
+  display: block;
+}
+
+.freelancer-login-page .helper-links {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+}
+
+.freelancer-login-page .helper-links a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media (max-width: 920px) {
+  .dm-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .threads {
+    max-height: 260px;
+  }
+
+  .chat {
+    min-height: 58vh;
+  }
+}

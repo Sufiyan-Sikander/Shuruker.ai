@@ -1,0 +1,1097 @@
+{
+  "updatedAt": "2026-01-27T18:22:47.939240Z",
+  "source": "fallback_synthetic",
+  "categories": {
+    "Information Technology (IT) & Software Services": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        74,
+        77,
+        82,
+        98,
+        97,
+        116
+      ],
+      "cities": {
+        "Karachi": [
+          72,
+          71,
+          77,
+          98,
+          97,
+          114
+        ],
+        "Lahore": [
+          71,
+          76,
+          78,
+          100,
+          102,
+          106
+        ],
+        "Islamabad": [
+          69,
+          75,
+          76,
+          96,
+          100,
+          118
+        ],
+        "Rawalpindi": [
+          53,
+          59,
+          63,
+          74,
+          67,
+          86
+        ],
+        "Faisalabad": [
+          43,
+          43,
+          50,
+          58,
+          54,
+          64
+        ],
+        "Multan": [
+          43,
+          41,
+          45,
+          55,
+          55,
+          62
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "E-commerce & Online Marketplaces": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        64,
+        78,
+        78,
+        85,
+        90,
+        98
+      ],
+      "cities": {
+        "Karachi": [
+          60,
+          77,
+          78,
+          89,
+          88,
+          91
+        ],
+        "Lahore": [
+          60,
+          73,
+          78,
+          83,
+          84,
+          98
+        ],
+        "Islamabad": [
+          56,
+          64,
+          68,
+          69,
+          77,
+          80
+        ],
+        "Rawalpindi": [
+          46,
+          59,
+          59,
+          59,
+          66,
+          75
+        ],
+        "Faisalabad": [
+          38,
+          50,
+          49,
+          53,
+          57,
+          67
+        ],
+        "Multan": [
+          36,
+          43,
+          45,
+          50,
+          52,
+          59
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Trading & Commercial Businesses": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        60,
+        61,
+        62,
+        69,
+        72,
+        74
+      ],
+      "cities": {
+        "Karachi": [
+          56,
+          56,
+          57,
+          69,
+          68,
+          72
+        ],
+        "Lahore": [
+          51,
+          54,
+          50,
+          63,
+          68,
+          61
+        ],
+        "Islamabad": [
+          38,
+          40,
+          37,
+          43,
+          49,
+          44
+        ],
+        "Rawalpindi": [
+          35,
+          35,
+          34,
+          38,
+          43,
+          43
+        ],
+        "Faisalabad": [
+          41,
+          40,
+          43,
+          49,
+          51,
+          47
+        ],
+        "Multan": [
+          41,
+          42,
+          44,
+          44,
+          52,
+          50
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "General Services Companies (consulting, agencies, B2B/B2C services)": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        51,
+        54,
+        62,
+        66,
+        70,
+        75
+      ],
+      "cities": {
+        "Karachi": [
+          44,
+          45,
+          56,
+          57,
+          67,
+          66
+        ],
+        "Lahore": [
+          50,
+          52,
+          59,
+          61,
+          69,
+          69
+        ],
+        "Islamabad": [
+          42,
+          45,
+          57,
+          55,
+          61,
+          67
+        ],
+        "Rawalpindi": [
+          34,
+          36,
+          41,
+          47,
+          48,
+          56
+        ],
+        "Faisalabad": [
+          32,
+          35,
+          36,
+          40,
+          46,
+          48
+        ],
+        "Multan": [
+          28,
+          30,
+          36,
+          39,
+          38,
+          41
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Real Estate Development & Construction": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        65,
+        66,
+        73,
+        75,
+        79,
+        81
+      ],
+      "cities": {
+        "Karachi": [
+          68,
+          61,
+          70,
+          75,
+          81,
+          77
+        ],
+        "Lahore": [
+          59,
+          63,
+          71,
+          74,
+          73,
+          79
+        ],
+        "Islamabad": [
+          61,
+          61,
+          65,
+          64,
+          70,
+          77
+        ],
+        "Rawalpindi": [
+          60,
+          55,
+          66,
+          69,
+          64,
+          70
+        ],
+        "Faisalabad": [
+          53,
+          53,
+          56,
+          58,
+          57,
+          60
+        ],
+        "Multan": [
+          48,
+          46,
+          52,
+          56,
+          57,
+          58
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Tourism, Travel & Transport Services": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        46,
+        56,
+        53,
+        61,
+        62,
+        63
+      ],
+      "cities": {
+        "Karachi": [
+          41,
+          54,
+          51,
+          54,
+          55,
+          56
+        ],
+        "Lahore": [
+          43,
+          49,
+          49,
+          55,
+          54,
+          54
+        ],
+        "Islamabad": [
+          41,
+          57,
+          50,
+          59,
+          54,
+          64
+        ],
+        "Rawalpindi": [
+          40,
+          50,
+          43,
+          50,
+          56,
+          50
+        ],
+        "Faisalabad": [
+          31,
+          33,
+          34,
+          38,
+          41,
+          39
+        ],
+        "Multan": [
+          28,
+          30,
+          33,
+          37,
+          36,
+          38
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Food & Beverages": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        64,
+        70,
+        79,
+        79,
+        92,
+        93
+      ],
+      "cities": {
+        "Karachi": [
+          64,
+          66,
+          74,
+          77,
+          88,
+          86
+        ],
+        "Lahore": [
+          62,
+          67,
+          70,
+          75,
+          88,
+          84
+        ],
+        "Islamabad": [
+          55,
+          59,
+          64,
+          63,
+          68,
+          75
+        ],
+        "Rawalpindi": [
+          48,
+          52,
+          58,
+          54,
+          64,
+          63
+        ],
+        "Faisalabad": [
+          45,
+          45,
+          57,
+          52,
+          59,
+          66
+        ],
+        "Multan": [
+          42,
+          48,
+          47,
+          50,
+          58,
+          62
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Restaurants": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        64,
+        67,
+        77,
+        80,
+        86,
+        99
+      ],
+      "cities": {
+        "Karachi": [
+          59,
+          67,
+          78,
+          74,
+          78,
+          95
+        ],
+        "Lahore": [
+          61,
+          67,
+          82,
+          74,
+          88,
+          91
+        ],
+        "Islamabad": [
+          56,
+          52,
+          64,
+          72,
+          75,
+          87
+        ],
+        "Rawalpindi": [
+          49,
+          52,
+          60,
+          60,
+          67,
+          72
+        ],
+        "Faisalabad": [
+          45,
+          46,
+          50,
+          53,
+          58,
+          68
+        ],
+        "Multan": [
+          40,
+          48,
+          54,
+          52,
+          57,
+          61
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Cafés / Coffee Bars": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        63,
+        63,
+        74,
+        75,
+        83,
+        85
+      ],
+      "cities": {
+        "Karachi": [
+          62,
+          58,
+          72,
+          72,
+          82,
+          81
+        ],
+        "Lahore": [
+          61,
+          60,
+          74,
+          71,
+          81,
+          78
+        ],
+        "Islamabad": [
+          61,
+          58,
+          72,
+          73,
+          73,
+          80
+        ],
+        "Rawalpindi": [
+          47,
+          51,
+          56,
+          55,
+          69,
+          69
+        ],
+        "Faisalabad": [
+          44,
+          40,
+          50,
+          48,
+          55,
+          55
+        ],
+        "Multan": [
+          35,
+          38,
+          43,
+          47,
+          51,
+          49
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Cloud Kitchens": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        67,
+        74,
+        73,
+        86,
+        86,
+        93
+      ],
+      "cities": {
+        "Karachi": [
+          66,
+          72,
+          74,
+          89,
+          84,
+          99
+        ],
+        "Lahore": [
+          61,
+          68,
+          69,
+          77,
+          82,
+          77
+        ],
+        "Islamabad": [
+          46,
+          48,
+          51,
+          64,
+          58,
+          70
+        ],
+        "Rawalpindi": [
+          42,
+          46,
+          44,
+          49,
+          48,
+          55
+        ],
+        "Faisalabad": [
+          35,
+          36,
+          38,
+          40,
+          43,
+          44
+        ],
+        "Multan": [
+          30,
+          34,
+          35,
+          38,
+          37,
+          40
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Catering Services": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        52,
+        55,
+        55,
+        61,
+        67,
+        71
+      ],
+      "cities": {
+        "Karachi": [
+          45,
+          49,
+          50,
+          53,
+          61,
+          61
+        ],
+        "Lahore": [
+          46,
+          50,
+          54,
+          56,
+          61,
+          68
+        ],
+        "Islamabad": [
+          45,
+          51,
+          51,
+          55,
+          57,
+          59
+        ],
+        "Rawalpindi": [
+          40,
+          40,
+          38,
+          44,
+          47,
+          50
+        ],
+        "Faisalabad": [
+          31,
+          36,
+          35,
+          40,
+          40,
+          49
+        ],
+        "Multan": [
+          33,
+          34,
+          36,
+          38,
+          42,
+          45
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Education & Training Institutes": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        57,
+        70,
+        68,
+        80,
+        82,
+        89
+      ],
+      "cities": {
+        "Karachi": [
+          50,
+          64,
+          59,
+          77,
+          69,
+          82
+        ],
+        "Lahore": [
+          56,
+          61,
+          59,
+          71,
+          75,
+          75
+        ],
+        "Islamabad": [
+          54,
+          63,
+          68,
+          76,
+          85,
+          84
+        ],
+        "Rawalpindi": [
+          51,
+          57,
+          61,
+          66,
+          72,
+          71
+        ],
+        "Faisalabad": [
+          39,
+          52,
+          48,
+          61,
+          55,
+          62
+        ],
+        "Multan": [
+          39,
+          49,
+          43,
+          57,
+          52,
+          60
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "Coaching centers": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        50,
+        56,
+        64,
+        63,
+        67,
+        74
+      ],
+      "cities": {
+        "Karachi": [
+          41,
+          52,
+          58,
+          51,
+          57,
+          65
+        ],
+        "Lahore": [
+          45,
+          49,
+          56,
+          54,
+          64,
+          70
+        ],
+        "Islamabad": [
+          48,
+          49,
+          55,
+          61,
+          66,
+          69
+        ],
+        "Rawalpindi": [
+          39,
+          44,
+          52,
+          53,
+          53,
+          61
+        ],
+        "Faisalabad": [
+          36,
+          37,
+          46,
+          45,
+          43,
+          51
+        ],
+        "Multan": [
+          30,
+          37,
+          39,
+          40,
+          40,
+          51
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    },
+    "EdTech services": {
+      "labels": [
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01"
+      ],
+      "national": [
+        54,
+        60,
+        73,
+        82,
+        86,
+        94
+      ],
+      "cities": {
+        "Karachi": [
+          47,
+          58,
+          65,
+          71,
+          83,
+          84
+        ],
+        "Lahore": [
+          47,
+          55,
+          68,
+          72,
+          80,
+          78
+        ],
+        "Islamabad": [
+          51,
+          55,
+          72,
+          76,
+          79,
+          98
+        ],
+        "Rawalpindi": [
+          41,
+          47,
+          52,
+          60,
+          62,
+          74
+        ],
+        "Faisalabad": [
+          36,
+          36,
+          42,
+          51,
+          53,
+          59
+        ],
+        "Multan": [
+          30,
+          34,
+          40,
+          46,
+          53,
+          58
+        ]
+      },
+      "places": {
+        "Karachi": -1,
+        "Lahore": -1,
+        "Islamabad": -1,
+        "Rawalpindi": -1,
+        "Faisalabad": -1,
+        "Multan": -1
+      }
+    }
+  },
+  "topMovers": [
+    {
+      "category": "EdTech services",
+      "growth": 0.741,
+      "latest": 94
+    },
+    {
+      "category": "Information Technology (IT) & Software Services",
+      "growth": 0.568,
+      "latest": 116
+    },
+    {
+      "category": "Education & Training Institutes",
+      "growth": 0.561,
+      "latest": 89
+    },
+    {
+      "category": "Restaurants",
+      "growth": 0.547,
+      "latest": 99
+    },
+    {
+      "category": "E-commerce & Online Marketplaces",
+      "growth": 0.531,
+      "latest": 98
+    }
+  ]
+}
