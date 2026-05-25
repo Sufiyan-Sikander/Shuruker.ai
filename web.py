@@ -1,4 +1,5 @@
 from flask import Flask, request, redirect, url_for, jsonify, session, send_from_directory
+from flask_cors import CORS
 import os
 import json
 import shutil
@@ -16,6 +17,21 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'dev-secret-key-change-in-production')
 FRONTEND_URL = os.environ.get('FRONTEND_URL', 'http://localhost:5173').rstrip('/')
+
+# Enable CORS for frontend (Vercel and localhost)
+CORS(app, resources={
+    r"/*": {
+        "origins": [
+            "http://localhost:5173",
+            "http://localhost:3000",
+            "https://shurukerai.vercel.app",
+            os.environ.get('FRONTEND_URL', '').rstrip('/')
+        ],
+        "allow_headers": ["Content-Type", "Authorization"],
+        "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "supports_credentials": True
+    }
+})
 
 
 def frontend_redirect(path=''):

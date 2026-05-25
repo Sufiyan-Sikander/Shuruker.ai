@@ -2,6 +2,7 @@ google-genai
 pinecone-client
 python-dotenv
 flask
+flask-cors
 langchain
 google-generativeai
 PyPDF2
