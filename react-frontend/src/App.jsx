@@ -202,7 +202,7 @@ function App() {
       <header className={`nav ${scrolled ? 'scrolled' : ''}`}>
         <div className="container nav-inner">
           <a className="brand" href={`${flaskBaseUrl}/`} aria-label="ShurukerAi home">
-            <div className="logo"><img src={`${flaskBaseUrl}/static/images/logo2.png`} alt="ShurukerAi logo" /></div>
+            <div className="logo"><img src="/static/images/logo2.png" alt="ShurukerAi logo" /></div>
             <div className="brand-text">
               <span className="brand-name">ShurukerAi</span>
               <small className="brand-slogan">Pakistan's Smart Business Launch Partner</small>

@@ -7,7 +7,7 @@ export default function StartPage(){
       <header className="nav scrolled">
         <div className="container nav-inner">
           <div className="brand">
-            <div className="logo"><img src={`${flaskBaseUrl}/static/images/logo2.png`} alt="logo"/></div>
+            <div className="logo"><img src="/static/images/logo2.png" alt="logo"/></div>
             <div className="brand-text"><span className="brand-name">ShurukerAi</span></div>
           </div>
         </div>
