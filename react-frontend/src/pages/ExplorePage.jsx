@@ -38,10 +38,10 @@ export default function ExplorePage() {
           </a>
           <nav className="nav-links">
             <a href="/">Home</a>
-            <a href={`${flaskBaseUrl}/explore`} aria-current="page">Explore</a>
-            <a href={`${flaskBaseUrl}/learn`}>Learn</a>
-            <a className="signin" href={`${flaskBaseUrl}/login`}>Sign In</a>
-            <a className="signup" href={`${flaskBaseUrl}/start`}>Sign Up</a>
+            <a href="/explore" aria-current="page">Explore</a>
+            <a href="/learn">Learn</a>
+            <a className="signin" href="/login">Sign In</a>
+            <a className="signup" href="/start">Sign Up</a>
           </nav>
         </div>
       </header>
@@ -59,7 +59,7 @@ export default function ExplorePage() {
                 <span className="chip ghost">Category trend lines</span>
               </div>
               <div className="hero-cta">
-                <a className="btn primary" href={`${flaskBaseUrl}/login?next=/chat`}>Chat about my idea</a>
+                <a className="btn primary" href="/login?next=/chat">Chat about my idea</a>
                 <a className="btn ghost" href="#probability">Check probability</a>
               </div>
             </div>

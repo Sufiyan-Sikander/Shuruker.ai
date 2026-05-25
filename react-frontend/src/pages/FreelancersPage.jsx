@@ -57,14 +57,14 @@ export default function FreelancersPage() {
           <nav className="nav-links">
             <a href="/">Home</a>
             <div className="nav-dropdown">
-              <a href={`${flaskBaseUrl}/freelancers`} className="dropdown-toggle">Services</a>
+              <a href="/freelancers" className="dropdown-toggle">Services</a>
               <div className="dropdown-menu">
-                <a href={`${flaskBaseUrl}/register-freelancer`}>Register as Freelancer</a>
-                <a href={`${flaskBaseUrl}/freelancer-login`}>Freelancer Login</a>
-                <a href={`${flaskBaseUrl}/freelancers`}>Find Freelancer</a>
+                <a href="/register-freelancer">Register as Freelancer</a>
+                <a href="/freelancer-login">Freelancer Login</a>
+                <a href="/freelancers">Find Freelancer</a>
               </div>
             </div>
-            <a className="signin" href={`${flaskBaseUrl}/login`}>Sign In</a>
+            <a className="signin" href="/login">Sign In</a>
           </nav>
         </div>
       </header>

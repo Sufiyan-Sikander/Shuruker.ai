@@ -7,7 +7,7 @@ export default function FreelancerLoginPage() {
   const [loadingKey, setLoadingKey] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const loginParams = useMemo(() => new URLSearchParams(window.location.search), []);
-  const nextPath = loginParams.get('next') || `${flaskBaseUrl}/freelancer-inbox`;
+  const nextPath = loginParams.get('next') || '/freelancer-inbox';
 
   const verifyAndValidateFreelancer = async (user) => {
     const idToken = await user.getIdToken();
@@ -111,8 +111,8 @@ export default function FreelancerLoginPage() {
         </form>
 
         <div className="helper-links">
-          Not registered as freelancer? <a href={`${flaskBaseUrl}/register-freelancer`}>Apply here</a><br />
-          General user login: <a href={`${flaskBaseUrl}/login`}>Open login</a>
+          Not registered as freelancer? <a href="/register-freelancer">Apply here</a><br />
+          General user login: <a href="/login">Open login</a>
         </div>
       </div>
     </div>
