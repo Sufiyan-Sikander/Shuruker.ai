@@ -33,6 +33,13 @@ CORS(app, resources={
     }
 })
 
+# Session cookie configuration for cross-domain Firebase auth
+is_production = os.environ.get('ENVIRONMENT', 'development') == 'production'
+app.config['SESSION_COOKIE_SECURE'] = is_production  # Only send cookie over HTTPS in production
+app.config['SESSION_COOKIE_HTTPONLY'] = True  # Prevent JavaScript access to session cookie
+app.config['SESSION_COOKIE_SAMESITE'] = 'None' if is_production else 'Lax'  # None required for cross-domain in production
+app.config['PERMANENT_SESSION_LIFETIME'] = 86400 * 7  # 7 days
+
 
 def frontend_redirect(path=''):
     """Redirect page requests to the React frontend."""
