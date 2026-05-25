@@ -25,5 +25,5 @@ EXPOSE 7860
 ENV PYTHONUNBUFFERED=1
 ENV FLASK_ENV=production
 
-# Run the Flask app
-CMD exec python web.py
+# Run with Gunicorn (production WSGI server)
+CMD gunicorn -w 1 -b 0.0.0.0:${PORT:-7860} web:app

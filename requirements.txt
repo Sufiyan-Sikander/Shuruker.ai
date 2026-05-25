@@ -8,4 +8,6 @@ PyPDF2
 sentence-transformers
 langchain-text-splitters
 firebase-admin
-pytrendsPyJWT
+pytrends
+PyJWT
+gunicorn
