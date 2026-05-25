@@ -168,6 +168,11 @@ def get_user_landing_path(uid):
 def index():
     return frontend_redirect('/')
 
+@app.route('/health')
+def health():
+    """Health check endpoint to verify backend is running."""
+    return jsonify({"status": "ok", "backend": "running"})
+
 @app.route('/login')
 def login():
     """Login/Sign up page."""
