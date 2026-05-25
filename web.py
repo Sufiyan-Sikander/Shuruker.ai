@@ -262,7 +262,8 @@ def verify_token():
         uid = decoded_token['uid']
         email = decoded_token.get('email', '')
         
-        # Store user info in session
+        # Store user info in session (persistent)
+        session.permanent = True
         session['uid'] = uid
         session['email'] = email
         
