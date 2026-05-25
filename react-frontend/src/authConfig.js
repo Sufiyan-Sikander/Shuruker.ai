@@ -1,4 +1,4 @@
-let _flaskBase = import.meta.env.VITE_FLASK_BASE_URL;
+let _flaskBase = import.meta.env.VITE_API_URL || import.meta.env.VITE_FLASK_BASE_URL;
 if (!_flaskBase) {
   if (typeof window !== 'undefined' && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.port === '5173')) {
     // running in Vite dev server — keep relative links so navigation stays on :5173
