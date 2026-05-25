@@ -1,0 +1,11 @@
+google-genai
+pinecone-client
+python-dotenv
+flask
+langchain
+google-generativeai
+PyPDF2
+sentence-transformers
+langchain-text-splitters
+firebase-admin
+pytrendsPyJWT
